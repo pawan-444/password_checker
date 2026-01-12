@@ -1,6 +1,6 @@
 {
   "name": "password_checker",
-  "homepage": "https://pawan-444.github.io/password_checker",
+  "homepage": "/password_checker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
