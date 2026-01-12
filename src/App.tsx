@@ -9,6 +9,7 @@ import zxcvbn from 'zxcvbn';
 import { calculateEntropy, calculateTimeToCrack, formatTimeToCrack, attackerRates, checkPwned } from './utils/crypto';
 import { motion, AnimatePresence } from 'framer-motion';
 import Confetti from 'react-confetti';
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   const [password, setPassword] = useState('');
